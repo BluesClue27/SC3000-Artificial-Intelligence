@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="/public/AI_Image.jpg">
+  <a href="/images/AI_Image.jpg">
     <img src="/images/AI_Image.jpg" alt="Logo" height=150 >
   </a>
   <h1 align="center">
