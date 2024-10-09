@@ -94,12 +94,14 @@ The Q-learning formula is as shown below (adapted from Lecture Notes)
 
 In this assignment, the learning rate (**alpha value**) has been set to 0.1, the discount factor
 (**gamma value**) has been set to 0.99.
+
 The learning rate determines how quickly the agent learns from new experiences, while the
 discount factor discounts the future rewards compared to immediate rewards (money is
 worth more today than tomorrow). **Alpha=0.1** means that only 10% of the new experiences
 is based on the Q-value, and 90% is based on the old Q-value. **Gamma=0.99** means that
 the agent places more emphasis on future rewards, considering long-term rewards when
 making decisions.
+
 Q-learning helps the agent to improve his decision-making by continuously adjusting its
 Q-values based on the maximum expected reward it can achieve in each given state by
 following the optimal policy.
