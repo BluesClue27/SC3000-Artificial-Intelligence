@@ -87,7 +87,7 @@ and push the box to the goal efficiently. DQN would introduce unnecessary comple
 while MC might be inefficient due to delayed updates
 
 The Q-learning formula is as shown below (adapted from Lecture Notes).
-<img src="/Images/Q_ learning_formula.png" width="700">
+<img src="Images\Q_learning_formula.png" width="700">
 
 <h4 align = "center">
 <u>Fig.2 Q-learning formula<u>
