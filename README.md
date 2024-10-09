@@ -40,11 +40,11 @@ The MDP formulation is described as follows:
   agent needs to select one of them to navigate in the environment.
 - **Reward**: The reward consists of
 
-1. the agent will receive a reward of -1 at each timestep
-2. the negative value of the distance between the box and the goal
-3. the negative value of the distance between the agent and the box
-4. the agent will receive a reward of -1000 if the agent or the box falls into the cliff.
-5. the agent will receive a reward of 1000 if the box reaches the goal position.
+    1. the agent will receive a reward of -1 at each timestep
+    2. the negative value of the distance between the box and the goal
+    3. the negative value of the distance between the agent and the box
+    4. the agent will receive a reward of -1000 if the agent or the box falls into the cliff.
+    5. the agent will receive a reward of 1000 if the box reaches the goal position.
 
 - **Transition**: Agent’s action can change its position and the position of the box. If a collision with a
   boundary happens, the agent or the box would stay in the same position. The transition can be
