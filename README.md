@@ -13,9 +13,7 @@
 This repository contains the lab assignments for NTU SC3000 Artificial Intelligence (AY24/25 SEM1)
 There are mainly two lab assignments for this course.
 
-# Lab Asssignment 1
-
-## Reinforcement Learning Algorithm
+# Lab Asssignment 1 (Reinforcement Learning Algorithm)
 
 Students are tasked to implement and evaluate on of the Reinforcement Learning (RL) Algorithms to solve the CliffBoxPushing grid-world game.
 
@@ -86,7 +84,8 @@ grid-world and the need for step-by-step updates, which helps the agent learn to
 and push the box to the goal efficiently. DQN would introduce unnecessary complexities,
 while MC might be inefficient due to delayed updates
 
-The Q-learning formula is as shown below (adapted from Lecture Notes).
+The Q-learning formula is as shown below (adapted from Lecture Notes)
+
 <img src="Images\Q_learning_formula.png" width="700">
 
 <h4 align = "center">
