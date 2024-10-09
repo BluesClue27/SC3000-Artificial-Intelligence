@@ -1,7 +1,7 @@
 <br />
 <p align="center">
-  <a href="/images/AI_Image.jpg">
-    <img src="/images/AI_Image.jpg" alt="Logo" height=150 >
+  <a href="/Images/AI_Image.jpg">
+    <img src="/Images/AI_Image.jpg" alt="Logo" height=150 >
   </a>
   <h1 align="center">
     SC3000 Artificial Intelligence Lab Assignments
@@ -19,10 +19,10 @@ There are mainly two lab assignments for this course.
 
 Students are tasked to implement and evaluate on of the Reinforcement Learning (RL) Algorithms to solve the CliffBoxPushing grid-world game.
 
-<img src="/images/Cliff_Box_Pushing_Grid_World.png" width="700">
-<h2 align = "center">
+<img src="/Images/Cliff_Box_Pushing_Grid_World.png" width="700">
+<h4 align = "center">
 <u>Fig.1 The Cliff Box Pushing Grid World<u>
-</h2>
+</h4>
 
 The environment is a 2D grid world as shown in Fig. 1. The size of the environment is 6×14. In Fig. 1,
 **A** indicates the agent, **B** stands for the box, **G** is the goal, and **x** means cliff. You need to write code
@@ -87,11 +87,11 @@ and push the box to the goal efficiently. DQN would introduce unnecessary comple
 while MC might be inefficient due to delayed updates
 
 The Q-learning formula is as shown below (adapted from Lecture Notes).
-<img src="/images/Q_ learning_formula.png" width="700">
+<img src="/Images/Q_ learning_formula.png" width="700">
 
-<h2 align = "center">
+<h4 align = "center">
 <u>Fig.2 Q-learning formula<u>
-</h2>
+</h4>
 
 In this assignment, the learning rate (**alpha value**) has been set to 0.1, the discount factor
 (**gamma value**) has been set to 0.99.
